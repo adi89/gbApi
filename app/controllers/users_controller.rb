@@ -6,7 +6,7 @@ respond_to :json
     if check_session
       render :json, "User already registered"
     else
-      user = User.new(email: params['email'])
+      user = User.new(email: params['email'], name: params['name'])
       if user.save
         render json: "OK"
         create_session
