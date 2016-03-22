@@ -71,6 +71,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    puma (3.2.0)
     rack (1.5.5)
     rack-protection (1.5.3)
       rack
@@ -156,6 +157,7 @@ DEPENDENCIES
   mandrill-api
   pg
   pry
+  puma
   rails (= 4.1.6)
   rails_12factor
   sass-rails (~> 4.0.3)

@@ -38,7 +38,7 @@ ruby "2.2.0"
 
 # Use unicorn as the app server
 # gem 'unicorn'
-
+gem 'puma'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
